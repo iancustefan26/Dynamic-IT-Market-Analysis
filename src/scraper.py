@@ -1,12 +1,13 @@
 from serpapi import GoogleSearch
 from usable import *
 
-serp_api_token = open('../API_TOKENS/serpapitoken.txt').read(256)
+serp_api_token = open('/Users/stefaniancu/Documents/VS Code/JobScraperEngine/API_TOKENS/serpapitoken.txt').read(256)
 print(serp_api_token)
 
 params = {
   "engine": "google_jobs",
-  "q": "Software Developer",
+  #"location" : "New York,United States",
+  "q": "Software Engineer",
   "hl": "en",
   "api_key": serp_api_token
 }
@@ -104,15 +105,14 @@ results = search.get_dict().get('jobs_results', [])
 for job in results:
     job_highlights = job.get('job_highlights', [])
     for highlight in job_highlights:
-        if highlight.get('title') == 'Qualifications':
-            items = highlight.get('items', [])
-            for item in items:
-                 for skill in all_skills:
-                      for niche in skill:
-                           if len(niche) == 1 and check_isolated_letter(item, niche):
-                                skill[niche] += 1
-                           elif check_isolated_word(item, niche) or niche in item:
-                                skill[niche] += 1
+        items = highlight.get('items', [])
+        for item in items:
+                for skill in all_skills:
+                    for niche in skill:
+                        if len(niche) == 1 and check_isolated_letter(item, niche):
+                            skill[niche] += 1
+                        elif check_isolated_word(item, niche) or niche in item:
+                            skill[niche] += 1
     
 
 
