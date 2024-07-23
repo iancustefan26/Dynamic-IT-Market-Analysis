@@ -1,11 +1,14 @@
 from serpapi import GoogleSearch
 from usable import *
 
+serp_api_token = open('../API_TOKENS/serpapi_token.txt').read(256)
+print(serp_api_token)
+
 params = {
   "engine": "google_jobs",
   "q": "Software Developer",
   "hl": "en",
-  "api_key": "c11f993f0d115cbb54b35fdf4aea91ef729096f4b85cb2fb8fc7687ca555012e"
+  "api_key": 0
 }
 
 

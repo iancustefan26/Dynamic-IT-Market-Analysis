@@ -1,0 +1,6 @@
+#Ignore API tokens
+API_TOKENS/serpapi_tokens.txt
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
