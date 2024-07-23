@@ -1,5 +1,5 @@
 #Ignore API tokens
-API_TOKENS/serpapi_token.txt
+API_TOKENS/serpapitoken.txt
 
 # Ignore Python compiled files
 __pycache__/
