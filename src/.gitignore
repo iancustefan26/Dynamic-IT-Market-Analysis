@@ -1,6 +1,0 @@
-#Ignore API tokens
-API_TOKENS/serpapitoken.txt
-
-# Ignore Python compiled files
-src/__pycache__/
-*.pyc
