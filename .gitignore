@@ -1,0 +1,5 @@
+#Ignore API tokens
+API_TOKENS
+
+# Ignore Python compiled files
+src/__pycache__

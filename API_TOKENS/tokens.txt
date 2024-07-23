@@ -1,2 +1,0 @@
-make folders for:
-serpapitoken.txt -- SerpAPI token
