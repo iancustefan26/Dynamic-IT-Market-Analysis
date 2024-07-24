@@ -1,32 +1,34 @@
 import json
-import re
-from usable import check_isolated_word
+import heapq
 
-def contains_single_letter(text, letter):
-    allowed_surroundings = r'\s\.,;\/\\|\b'
-    pattern = rf'(?<=[{allowed_surroundings}]){re.escape(letter)}(?=[{allowed_surroundings}])'
-    matches = re.findall(pattern, text)
-    return bool(matches)
+class location:
+    def __init__(self, dict):
+        self.name = dict.get('canonical_name', [])
+        self.population = dict.get('reach', [])
+    def __lt__(self, other):
+        return self.population < other.population
+    
+def get_reach(dict):
+    return dict.get('reach', [])
 
+def push(queue, item):
+    heapq.heappush(queue,item)
 
-json_content = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/one_search.json").read(200000)
+def pop(queue):
+    heapq.heappop(queue)
 
-jobs = json.loads(json_content).get('jobs_results', [])
+json_file = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/locations.json").read(9999999999)
 
-count = 0
-strings = []
+locations = json.loads(json_file)
 
-for job in jobs:
-    job_highlights = job.get('job_highlights', [])
-    for highlight in job_highlights:
-        items = highlight.get('items', [])
-        for item in items:
-            #print(item, end = "\n\n")
-            if check_isolated_word("C++", item) or "C++" in item:
-                count += 1
-                strings.append(item)
+priority_queue = []
 
-for string in strings:
-    print(string)
+for loc in locations:
+    if len(priority_queue) > 10:
+        push(priority_queue, location(loc))
+        pop(priority_queue)
+    else:
+        push(priority_queue, location(loc))
 
-print(count)
+for i in range(10):
+    print(pop(priority_queue))
