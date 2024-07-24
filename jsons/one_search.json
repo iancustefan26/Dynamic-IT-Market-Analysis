@@ -1,0 +1,626 @@
+{
+    "search_metadata": {
+      "id": "66a0fc53e0ded42c235e3f40",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/09479ae2043a3d28/66a0fc53e0ded42c235e3f40.json",
+      "created_at": "2024-07-24 13:06:27 UTC",
+      "processed_at": "2024-07-24 13:06:27 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=Software+Engineer&hl=en&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/09479ae2043a3d28/66a0fc53e0ded42c235e3f40.html",
+      "total_time_taken": 1.74
+    },
+    "search_parameters": {
+      "q": "Software Engineer",
+      "engine": "google_jobs",
+      "google_domain": "google.com",
+      "hl": "en"
+    },
+    "jobs_results": [
+      {
+        "title": "Software Engineer",
+        "company_name": "Epic",
+        "location": "Albuquerque, NM",
+        "via": "LinkedIn",
+        "thumbnail": "https://serpapi.com/searches/66a0fc53e0ded42c235e3f40/images/9ac42d3ab90d22ac1f6308e96f42c16402243953cae705a9d03a155aed562145.jpeg",
+        "extensions": [
+          "3 hours ago",
+          "Full-time"
+        ],
+        "detected_extensions": {
+          "posted_at": "3 hours ago",
+          "schedule_type": "Full-time"
+        },
+        "description": "Please note that this position is based on our campus in Madison, WI, and requires relocation to the area. We recruit nationally and provide financial relocation assistance.\n\nCode that saves lives.\n\nAs a software developer at Epic, you’ll write software that impacts the lives of 75% of Americans and 300 million patients around the world. Working in your own office, surrounded by thousands of high-caliber developers, you’ll use modern development methodologies and employ user-centered design, analytics, and machine learning tools to drive innovation in healthcare. Using leading-edge technologies and languages like JS, TS, and C#, you’ll invent better ways to reduce medical errors, streamline record sharing between hospitals, and provide the quality of care a patient deserves.\n\nWrite software for the most innovative health systems on the planet.\n\nThe top-ranked health systems in U.S. News and World Report are Epic customers. Our community includes major systems like the Mayo Clinic, Johns Hopkins, Cleveland Clinic, and Kaiser Permanente, as well as leading academic medical centers at the University of Wisconsin, University of Michigan, University of California, University of Texas, The Ohio State University, and many more.\n\nExperience our state-of-the-art campus, eat delicious food, and travel the world.\n\nWe don’t believe in cubicles. (Well, we believe they exist, but…) Our uniquely themed campus was designed to heighten your ability to get stuff done in your office, a conference room, or by the fireplace in a comfy chair. For lunch, visit King’s Cross or Cassiopeia for a wide array of meal options, or go to one of our smaller, themed bistros, featuring wood-rotisserie, pan-Asian, and Latin-inspired cuisine. All meals are restaurant-quality but cost only a few dollars, and they’re prepared by a team comprised of kitchen talent from restaurants around the country. And, after five years here, you’ll earn a four-week sabbatical anywhere in the world. Staff have kayaked in Patagonia, attended a Beyoncé concert in Ireland, built a library in Tanzania, and run a marathon in Antarctica.\n\nLive affordably in a city known for its rising tech talent.\n\nEpic is located just outside Madison, Wisconsin, which is the second fastest growing market for tech talent in the United States, home to the state capital, and the University of Wisconsin. Madison has received accolades for being the greenest city in America (NerdWallet), the best city for renters (SmartAsset), fittest city in America (Fitbit), and, for the gamers, is one of a handful of US cities to have a Killer Queen arcade game, located at Madison’s first arcade bar.\n\nMore than just important work.\n\nWe offer comprehensive benefits to keep you healthy and happy as you grow in your life and career, and your merit-based compensation will reflect the impact your work has on the company and our customers. You'll also be eligible for annual raises and bonuses, as well as stock grants, which give you an even greater stake in the success of Epic and our customers. Epic is an Equal Opportunity employer. We seek diverse perspectives, backgrounds, and experiences in our mission to improve healthcare. Research has shown that job-seekers who are women, LGBTQ+, or members of the global majority are less likely to apply for roles they don't seem completely qualified for, so we encourage all who are interested to apply. Please see our full non-discrimination statement at https //careers.epic.com/EEO.\n• Relocation to Madison, WI area (reimbursed)\n• BS/BA or greater in Computer Science, Mathematics, Software Engineering, Computer Engineering, or a related field\n• A history of academic excellence or professional success\n• Eligible to work in the United States without visa sponsorship (persons with appropriate qualifications and eligible for TN status under NAFTA may apply)\n• COVID-19 vaccination",
+        "job_highlights": [
+          {
+            "title": "We offer comprehensive benefits to keep you healthy and happy as you grow in your life and career, and your merit-based compensation will reflect the impact your work has on the company and our customers. You'll also be eligible for annual raises and bonuses, as well as stock grants, which give you an even greater stake in the success of Epic and our customers. Epic is an Equal Opportunity employer. We seek diverse perspectives, backgrounds, and experiences in our mission to improve healthcare. Research has shown that job-seekers who are women, LGBTQ+, or members of the global majority are less likely to apply for roles they don't seem completely qualified for, so we encourage all who are interested to apply. Please see our full non-discrimination statement at https //careers.epic.com/EEO.",
+            "items": [
+              "Relocation to Madison, WI area (reimbursed)",
+              "BS/BA or greater in Computer Science, Mathematics, Software Engineering, Computer Engineering, or a related field",
+              "A history of academic excellence or professional success",
+              "Eligible to work in the United States without visa sponsorship (persons with appropriate qualifications and eligible for TN status under NAFTA may apply)"
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkVwaWMiLCJhZGRyZXNzX2NpdHkiOiJBbGJ1cXVlcnF1ZSwgTk0iLCJodGlkb2NpZCI6IlMyYWtDN2hXWFRYS0FqOEFBQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+      },
+      {
+        "title": "Software Engineer (Top Secret)",
+        "company_name": "KBR",
+        "location": "Albuquerque, NM",
+        "via": "KBR Careers",
+        "thumbnail": "https://serpapi.com/searches/66a0fc53e0ded42c235e3f40/images/9ac42d3ab90d22ac11a63261f28b492cfd5470083e0819fd0e4f91c40cd2fc57.png",
+        "extensions": [
+          "Full-time"
+        ],
+        "detected_extensions": {
+          "schedule_type": "Full-time"
+        },
+        "description": "Title:\nSoftware Engineer (Top Secret)\n\nKBR is searching for a highly skilled Software Engineer to support development of first-of-kind operational space or space related missions for the Space Rapid Capabilities Office (RCO). A successful candidate should be a leader and problem solver with a proven ability to deliver superior results as part of a high performing team in a high-profile, fast-paced environment. The candidate will apply advanced principles, theories, and concepts for highly classified systems, while also effectively communicating complex results with management and executive leadership.\n\nIn this position, you will provide System Engineering Technical Assistance (SETA) to the Space RCO at Kirtland AFB, NM. The Space RCO is one of three US Space Force acquisition organization and is the one specializing in delivering first-of systems to fill quick-turn needs to deliver operational capability to the USSF. For each project, Space RCO sets up small, agile and empowered teams, to include program manager, technical specialists, contracting, finance, security, and they use right acquisition strategies to set the effort up for success. You will work in one of these small, highly empowered teams where every team member is directly responsible for the success of the program.\n\nRole and Responsibilities\n• Supports requirements development, design, interpretation, and analysis of technical solutions for complex optical systems.\n• Leads or supports technical programs, projects, or tasks whose technical complexity requires engineering oversight.\n• Ensures completion of tasks within estimated time frames and budget constraints.\n• Provides input to the government customer concerning risks to performance, schedule, and budget due to either proposed contractor plans or contractor's execution of accepted plans.\n• Ensures the quality of the program, project, or task deliverables meet or exceed standards or metrics and assesses such deliverables to ensure that the final deliverables will meet the warfighting purpose for which they are intended.\n• Plans and performs engineering research, design development, and other engineering assignments in conformance with the design, engineering, and customer specifications.\n• Responsible for the overall technical/engineering portions of major projects or programs.\n• Coordinates with multiple partners/agencies to ensure system engineering communities support delivery milestones.\n• Tracks and advises design trades and associated cost, schedule, and technical impacts to requirements.\n• Initiates, supervises, and/or develops requirements from a project’s inception to conclusion for complex to extremely complex programs.\n• Provides strategic advice, technical guidance and expertise to program and project staff.\n• Provides detailed analysis, evaluation and recommendations for improvements, optimization development and/or maintenance efforts for client specific or mission critical challenges/issues.\n• Leads studies and analyses of data to provide advice and recommend solutions.\n• Communicate clearly, concisely, and with technical accuracy—oral and written.\n• Other duties as required.\n\nRequired skills:\n• Minimum ten (10) years DoD/IC, or relevant industry work experience.\n• Expert knowledge in development, integration, test and delivery of software applications for both ground and flight software applications for spacecraft.\n• Experience with establishing agile software development and test environments and implementing CI/CD pipelines.\n• Experience working in multiple programming languages (e.g., Python, Matlab, C++, etc.).\n• Experience working in multiple classification environments and implementing cross-domain solutions.\n• Experience in DoD program management including program development and transition.\n• Experience with Integrated Master Schedules, and risk management.\n\nDesired skills:\n• Fifteen (15) years of relevant DoD and/or Industry work experience.\n• System Engineering Technical Assistance (SETA) to Government program office.\n• Experience with rapid prototyping and transition to operations.\n• Experience with ACAT I/II level acquisition programs.\n\nEducation:\n• An applicable engineering or computer science degree from a program accredited by the Accreditation Board for Engineering and Technology (ABET).\n• Relevant MA/MS/ME degree\n• (Desired) PhD in engineering or computer science.\n\nClearance:\n• Active TOP SECRET clearance with sensitive compartmentalized information (SCI) and special access program (SAP) eligibility.\n• No less than two (2) years total SAP and/or SCI environment experience and 1-year total within last 5 years.\n• Candidate must maintain a TS/SCI clearance as a condition of employment and willingness to submit to a Counter-Intelligence polygraph.\n\nWork Location & Travel:\n• This position is full-time, on site at Kirtland AFB, NM and will require travel up to 25% of time within the continental United States.\n\nKBR is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.",
+        "job_highlights": [
+          {
+            "title": "Role and Responsibilities",
+            "items": [
+              "Supports requirements development, design, interpretation, and analysis of technical solutions for complex optical systems.",
+              "Leads or supports technical programs, projects, or tasks whose technical complexity requires engineering oversight.",
+              "Ensures completion of tasks within estimated time frames and budget constraints.",
+              "Provides input to the government customer concerning risks to performance, schedule, and budget due to either proposed contractor plans or contractor's execution of accepted plans.",
+              "Ensures the quality of the program, project, or task deliverables meet or exceed standards or metrics and assesses such deliverables to ensure that the final deliverables will meet the warfighting purpose for which they are intended.",
+              "Plans and performs engineering research, design development, and other engineering assignments in conformance with the design, engineering, and customer specifications.",
+              "Responsible for the overall technical/engineering portions of major projects or programs.",
+              "Coordinates with multiple partners/agencies to ensure system engineering communities support delivery milestones.",
+              "Tracks and advises design trades and associated cost, schedule, and technical impacts to requirements.",
+              "Initiates, supervises, and/or develops requirements from a project’s inception to conclusion for complex to extremely complex programs.",
+              "Provides strategic advice, technical guidance and expertise to program and project staff.",
+              "Provides detailed analysis, evaluation and recommendations for improvements, optimization development and/or maintenance efforts for client specific or mission critical challenges/issues.",
+              "Leads studies and analyses of data to provide advice and recommend solutions.",
+              "Communicate clearly, concisely, and with technical accuracy—oral and written.",
+              "Other duties as required."
+            ]
+          },
+          {
+            "title": "Required skills:",
+            "items": [
+              "Minimum ten (10) years DoD/IC, or relevant industry work experience.",
+              "Expert knowledge in development, integration, test and delivery of software applications for both ground and flight software applications for spacecraft.",
+              "Experience with establishing agile software development and test environments and implementing CI/CD pipelines.",
+              "Experience working in multiple programming languages (e.g., Python, Matlab, C++, etc.).",
+              "Experience working in multiple classification environments and implementing cross-domain solutions.",
+              "Experience in DoD program management including program development and transition.",
+              "Experience with Integrated Master Schedules, and risk management."
+            ]
+          },
+          {
+            "title": "Desired skills:",
+            "items": [
+              "Fifteen (15) years of relevant DoD and/or Industry work experience.",
+              "System Engineering Technical Assistance (SETA) to Government program office.",
+              "Experience with rapid prototyping and transition to operations.",
+              "Experience with ACAT I/II level acquisition programs."
+            ]
+          },
+          {
+            "title": "Education:",
+            "items": [
+              "An applicable engineering or computer science degree from a program accredited by the Accreditation Board for Engineering and Technology (ABET).",
+              "Relevant MA/MS/ME degree",
+              "(Desired) PhD in engineering or computer science."
+            ]
+          },
+          {
+            "title": "Clearance:",
+            "items": [
+              "Active TOP SECRET clearance with sensitive compartmentalized information (SCI) and special access program (SAP) eligibility.",
+              "No less than two (2) years total SAP and/or SCI environment experience and 1-year total within last 5 years.",
+              "Candidate must maintain a TS/SCI clearance as a condition of employment and willingness to submit to a Counter-Intelligence polygraph."
+            ]
+          },
+          {
+            "title": "Work Location & Travel:",
+            "items": [
+              "This position is full-time, on site at Kirtland AFB, NM and will require travel up to 25% of time within the continental United States."
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoVG9wIFNlY3JldCkiLCJjb21wYW55X25hbWUiOiJLQlIiLCJhZGRyZXNzX2NpdHkiOiJBbGJ1cXVlcnF1ZSwgTk0iLCJodGlkb2NpZCI6IkJtWVJYZ1Y3Vm94Tk5iVXZBQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+      },
+      {
+        "title": "Software Engineer",
+        "company_name": "Raven Defense Corporation",
+        "location": "Albuquerque, NM",
+        "via": "ZipRecruiter",
+        "thumbnail": "https://serpapi.com/searches/66a0fc53e0ded42c235e3f40/images/9ac42d3ab90d22ac1c1ccf75a2c7fdd36c831beea1cfdfd9ebdffcd21faa31f6.jpeg",
+        "extensions": [
+          "8 days ago",
+          "75K–95K a year",
+          "Full-time"
+        ],
+        "detected_extensions": {
+          "posted_at": "8 days ago",
+          "schedule_type": "Full-time"
+        },
+        "description": "Raven Defense is searching for an ambitious, early career software engineer with software development skills to support a variety of ongoing efforts. These efforts largely focus on complex control system orchestration for RF and antenna systems and unit testing software for the hardware systems. System software typically supports supporting satellite communications, telemetry, electronic warfare, and associated domains. Join our small, dedicated engineering team. Test your limits, push yourself, and grow with us!\n\nMinimum Qualifications:\n• Bachelor of Science Degree in Computer Science or a highly related field\n• 0-2 years’ experience in software development\n• Demonstrated ability and/or experience coding in higher level languages such as C++, Java, or preferably C#\n• Experience working with software-hardware integration\n• Capable of delivering on multiple competing priorities with little supervision\n• Ability to apply for and receive a SECRET clearance\n• Excellent verbal and written communication skills\n\nPreferred Qualifications:\n• 2-6 years’ experience in software development\n• Advanced degree (Master’s or Ph.D.) in Computer Science or a highly related field\n• Current clearance\n• Experience with wiring, and troubleshooting electrical systems controlled by software\n\n· Working knowledge of DoD IA/IT security requirements, including RMF\n\n· Experience or familiarity with Radio Frequency (RF) systems\n\n· Experience in C# development and deployment\n• Experience with equipment automation\n\nTravel:\n• Occasional travel, up to 15%, is required for this position. Travel will include customer and vendor visits in office/meeting environments as well as engineering support requirements\n\nCitizenship and Clearance:\n• US Citizenship is required for this position\n• Candidate must meet minimum eligibility requirements to obtain a US DoD Top Secret level security clearance\n\nJob Type: Full-time\n\nExperience:\n• Programming: 0-2 years (Required)\n\nEducation:\n• Bachelor's (Required)\n\nLocation:\n• Albuquerque, NM 87109 (Required)\n\nWork authorization:\n• United States (Required)\n\nBenefits offered:\n• Paid time off\n• Medical insurance\n• Dental insurance\n• Other types of insurance\n• 401K\n\nCompany DescriptionRaven Defense is a technology company based in Albuquerque, NM dedicated to providing high quality engineering services, expert program consultation, and highly specialized technical equipment to meet our customer’s demanding requirements in deployable sensors for flight test support as well as cutting-edge research, development, test and evaluation systems. Established in 2018 as a privately held small business, Raven Defense is focused on being an agile and responsive partner able to react to changing customer needs.",
+        "job_highlights": [
+          {
+            "title": "Minimum Qualifications:",
+            "items": [
+              "Bachelor of Science Degree in Computer Science or a highly related field",
+              "0-2 years’ experience in software development",
+              "Demonstrated ability and/or experience coding in higher level languages such as C++, Java, or preferably C#",
+              "Experience working with software-hardware integration",
+              "Capable of delivering on multiple competing priorities with little supervision",
+              "Ability to apply for and receive a SECRET clearance",
+              "Excellent verbal and written communication skills"
+            ]
+          },
+          {
+            "title": "Preferred Qualifications:",
+            "items": [
+              "2-6 years’ experience in software development",
+              "Advanced degree (Master’s or Ph.D.) in Computer Science or a highly related field",
+              "Current clearance",
+              "Experience with wiring, and troubleshooting electrical systems controlled by software"
+            ]
+          },
+          {
+            "title": "· Experience in C# development and deployment",
+            "items": [
+              "Experience with equipment automation"
+            ]
+          },
+          {
+            "title": "Travel:",
+            "items": [
+              "Occasional travel, up to 15%, is required for this position. Travel will include customer and vendor visits in office/meeting environments as well as engineering support requirements"
+            ]
+          },
+          {
+            "title": "Citizenship and Clearance:",
+            "items": [
+              "US Citizenship is required for this position",
+              "Candidate must meet minimum eligibility requirements to obtain a US DoD Top Secret level security clearance"
+            ]
+          },
+          {
+            "title": "Experience:",
+            "items": [
+              "Programming: 0-2 years (Required)"
+            ]
+          },
+          {
+            "title": "Education:",
+            "items": [
+              "Bachelor's (Required)"
+            ]
+          },
+          {
+            "title": "Location:",
+            "items": [
+              "Albuquerque, NM 87109 (Required)"
+            ]
+          },
+          {
+            "title": "Work authorization:",
+            "items": [
+              "United States (Required)"
+            ]
+          },
+          {
+            "title": "Benefits offered:",
+            "items": [
+              "Paid time off",
+              "Medical insurance",
+              "Dental insurance",
+              "Other types of insurance",
+              "401K"
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IlJhdmVuIERlZmVuc2UgQ29ycG9yYXRpb24iLCJhZGRyZXNzX2NpdHkiOiJBbGJ1cXVlcnF1ZSwgTk0iLCJodGlkb2NpZCI6ImxfM0w4Z3ZJck9sWnV2WE5BQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+      },
+      {
+        "title": "Software Engineer",
+        "company_name": "Great River Technology",
+        "location": "Albuquerque, NM",
+        "via": "Indeed",
+        "extensions": [
+          "69,904–152,749 a year",
+          "Full-time"
+        ],
+        "detected_extensions": {
+          "schedule_type": "Full-time"
+        },
+        "description": "Software Engineer\n\nCompany: Great River Technology (GRT)\nLocation: Albuquerque, NM\n\nAbout Us:\nGreat River Technology (GRT) is a pioneering company located in Albuquerque, NM, and a global leader in ARINC 818 video products for the aerospace and defense industries. As an employee-owned company, we pride ourselves on fostering innovation and excellence in everything we do. With a casual and friendly yet challenging work environment, GRT offers terrific benefits and a unique opportunity to be part of cutting-edge projects in the field.\n\nPosition Overview:\nWe are seeking a talented Software Engineer to join our dynamic team. The ideal candidate will have a Bachelor's degree in Electrical/Computer Engineering or Computer Science, with a strong background in C/C++ and experience in developing embedded software. Additional work or internship experience is a plus.\n\nKey Responsibilities:\n• Develop software applications for Windows and Linux platforms.\n• Create software APIs and applications for GRT's PCIE card, module, and system products.\n• Create software for various communication protocols such as Ethernet, USB, Serial, and I2C.\n• Design and implement embedded software solutions for GRT products.\n• Develop software applications using C/C++.\n• Write automated test software using scripting languages such as Python and Bash.\n• Debug and test code to ensure functionality and performance.\n• Document and test software applications for developed hardware.\n\nRequirements:\n• Bachelor's degree in Electrical/Computer Engineering or Computer Science.\n• Proficiency in C/C++ and experience with embedded software development.\n• Familiarity with QT and Visual Studio IDEs.\n• Strong problem-solving skills and attention to detail.\n• Excellent communication and collaboration abilities.\n• Experience with electronic hardware, video processing algorithms, OpenCV, Open GL is a plus.\n\nBenefits:\n• Competitive salary and comprehensive benefits package.\n• Employee ownership\n• Casual and friendly work environment.\n• Opportunities for professional growth and development.\n\nIf you are passionate about software engineering and excited about the prospect of working on cutting-edge projects in the aerospace and defense industry, we encourage you to apply. Join us at Great River Technology and be part of a team dedicated to pushing the boundaries of innovation. Apply now!\n\nAbout Great River\n\nGreat River Technology is an employee owned company in Albuquerque, New Mexico, that specializes in mission-critical, high- performance digital video development tools and services for commercial aerospace and military customers. We have off-the-shelf board-level products for high-speed video links and point-to-point data transmission.\n\nGreat River offers competitive pay and generous benefits - including company stock, and performance bonuses.\n\nWork environment\n\nGreat River is a small entrepreneurial company with a friendly, team-oriented work atmosphere.\n\nEEO statement\n\nGreat River Technology is an equal opportunity employer.\n\nJob Type: Full-time\n\nPay: $69,904.00 - $152,749.00 per year\n\nBenefits:\n• 401(k)\n• Dental insurance\n• Health insurance\n• Paid time off\n• Stock options\n\nSchedule:\n• 8 hour shift\n• Monday to Friday\n\nApplication Question(s):\n• Do you currently live in Albuquerque?\n• Are you a non-US citizen who will work on a student visa or other work visa?\n\nEducation:\n• Bachelor's (Required)\n\nAbility to Relocate:\n• Albuquerque, NM 87113: Relocate before starting work (Required)\n\nWork Location: In person",
+        "job_highlights": [
+          {
+            "title": "Key Responsibilities:",
+            "items": [
+              "Develop software applications for Windows and Linux platforms.",
+              "Create software APIs and applications for GRT's PCIE card, module, and system products.",
+              "Create software for various communication protocols such as Ethernet, USB, Serial, and I2C.",
+              "Design and implement embedded software solutions for GRT products.",
+              "Develop software applications using C/C++.",
+              "Write automated test software using scripting languages such as Python and Bash.",
+              "Debug and test code to ensure functionality and performance.",
+              "Document and test software applications for developed hardware."
+            ]
+          },
+          {
+            "title": "Requirements:",
+            "items": [
+              "Bachelor's degree in Electrical/Computer Engineering or Computer Science.",
+              "Proficiency in C/C++ and experience with embedded software development.",
+              "Familiarity with QT and Visual Studio IDEs.",
+              "Strong problem-solving skills and attention to detail.",
+              "Excellent communication and collaboration abilities.",
+              "Experience with electronic hardware, video processing algorithms, OpenCV, Open GL is a plus."
+            ]
+          },
+          {
+            "title": "Benefits:",
+            "items": [
+              "Competitive salary and comprehensive benefits package.",
+              "Employee ownership",
+              "Casual and friendly work environment.",
+              "Opportunities for professional growth and development."
+            ]
+          },
+          {
+            "title": "Benefits:",
+            "items": [
+              "401(k)",
+              "Dental insurance",
+              "Health insurance",
+              "Paid time off",
+              "Stock options"
+            ]
+          },
+          {
+            "title": "Schedule:",
+            "items": [
+              "8 hour shift",
+              "Monday to Friday"
+            ]
+          },
+          {
+            "title": "Application Question(s):",
+            "items": [
+              "Do you currently live in Albuquerque?",
+              "Are you a non-US citizen who will work on a student visa or other work visa?"
+            ]
+          },
+          {
+            "title": "Education:",
+            "items": [
+              "Bachelor's (Required)"
+            ]
+          },
+          {
+            "title": "Ability to Relocate:",
+            "items": [
+              "Albuquerque, NM 87113: Relocate before starting work (Required)"
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkdyZWF0IFJpdmVyIFRlY2hub2xvZ3kiLCJhZGRyZXNzX2NpdHkiOiJBbGJ1cXVlcnF1ZSwgTk0iLCJodGlkb2NpZCI6Ikp3WjdOUGRWcHJuVG9XQVRBQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+      },
+      {
+        "title": "Software Engineer (Engineer Software 3) - 17637 1",
+        "company_name": "HII's Mission Technologies division",
+        "location": "Albuquerque, NM",
+        "via": "HII Mission Technologies Division Careers Page",
+        "extensions": [
+          "22 days ago",
+          "Full-time"
+        ],
+        "detected_extensions": {
+          "posted_at": "22 days ago",
+          "schedule_type": "Full-time"
+        },
+        "description": "Requisition Number: 19644\n\nRequired Travel: 0 - 10%\n\nEmployment Type: Full Time/Salaried/Exempt\n\nSecurity Clearance: Ability to Obtain\n\nLevel of Experience: Mid\n\nThis opportunity resides with Cyber & Electronic Warfare, a business group within HII’s Mission Technologies division. HII works within our nation’s intelligence and cyber operations communities to defend our interests in cyberspace. Our deep expertise in network architecture, software and hardware development, cybersecurity and the electromagnetic environment uniquely enables us to support sensitive missions for federal agency partners.\n\nMeet HII’s Mission Technologies Division\n\nOur team of more than 7,000 professionals worldwide delivers all-domain expertise and advanced technologies in service of mission partners across the globe. Mission Technologies is leading the next evolution of national defense – the data evolution - by accelerating a breadth of national security solutions for government and commercial customers. Our capabilities range from C5ISR, AI and Big Data, cyber operations and synthetic training environments to fleet sustainment, environmental remediation and the largest family of unmanned underwater vehicles in every class. Find the role that’s right for you. Apply today. We look forward to meeting you.\n\nTo learn more about Mission Technologies, click here for a short video: https://vimeo.com/732533072\n\nJob Description\n\nThe objective of the Space Protection and Response Solutions is to provide innovative technology solutions to ensure our Nation’s space mission capabilities in a multi-domain, joint and coalition conflict. We're looking for a senior software engineer to use the Advanced Framework for Simulation, Integration, and Modeling simulation software to support space control and multi-domain operations. These simulations will support force structure planning, National Space Test and Training Complex – Digital, Joint Combatant Command analysis and operations support, Space Force testing and training, and research and development of space systems. As a Software Engineer 4, you will be expected to maintain and manage workflow of junior engineers, in addition to leading projects under the Space Protection and Response Solution program. The majority of work will be on-site at Kirtland AFB inside of JWICS terminals for classified information exchange, team meetings, with periodic travel to support various customers across the continental US.\n\nMust possess current U.S. Citizenship and the ability to obtain a Top-Secret clearance.\n\n#LI-JA1\n\nEssential Job Responsibilities\n\nDesigns, develops, documents, tests and debugs applications software and systems that contain logical and mathematical solutions. Conducts multidisciplinary research and collaborates with equipment designers and/or hardware engineers in the planning, design, development, and utilization of electronic data processing systems for product and commercial software. Determines computer user needs; analyzes system capabilities to resolve problems on program intent, output requirements, input data acquisition, programming techniques and controls; prepares operating instructions; designs and develops compilers and assemblers, utility programs, and operating systems. Ensures software standards are met. Lead team of engineers and act as project lead when needed.\n\nMinimum Qualifications\n• 5 years relevant experience with Bachelors in related field; 3 years relevant experience with Masters in related field; 0 years experience with PhD or Juris Doctorate in related field; or High School Diploma or equivalent and 9 years relevant experience.\n• Strong understanding of user experience design principles, information architecture, and accessibility standards.\n• Passion for problem-solving, attention to detail, and the ability to thrive in a fast-paced and agile development environment.\n• Understanding of Space Domain Awareness.\n• There will be a technical coding interview conducted prior to selection for a final interview.\n• Proficient in C++\n• Able to obtain and maintain a TS/SCI clearance.\n\nPreferred Requirements\n• Proficiency in C#, AFSIM and Python desired.\n• Experience in US and Allied space enterprise position.\n• Three (3) years of software development project management experience.\n• Experience in deploying software and obtaining authorities to operate on SIPRNet.\n• Active DoD Secret or Top-Secret Clearance.\n\nPhysical Requirements\n\nAdequate visual acuity and manual dexterity for meeting the requirements Software Engineer family.\n\nHII is more than a job - it’s an opportunity to build a new future. We offer competitive benefits such as best-in-class medical, dental and vision plan choices; wellness resources; employee assistance programs; Savings Plan Options (401(k)); financial planning tools, life insurance; employee discounts; paid holidays and paid time off; tuition reimbursement; as well as early childhood and post-secondary education scholarships.\n\nWhy HII\n\nWe build the world’s most powerful, survivable naval ships and defense technology solutions that safeguard our seas, sky, land, space and cyber. Our diverse workforce includes skilled tradespeople; artificial intelligence, machine learning (AI/ML) experts; engineers; technologists; scientists; logistics experts; and business administration professionals.\n\nRecognized as one of America’s top large company employers, we are a values and ethics driven organization that puts people’s safety and well-being first. Regardless of your role or where you serve, at HII, you’ll find a supportive and welcoming environment, competitive benefits, and valuable educational and training programs for continual career growth at every stage of your career.\n\nTogether we are working to ensure a future where everyone can be free and thrive.\n\nToday’s challenges are bigger than ever, and the nation needs the best of us. It’s why we’re focused on hiring, developing and nurturing our diversity. We believe that diversity among our workforce strengthens the organization, stimulates creativity, promotes the exchange of ideas and enriches the work lives of all our employees.\n\nAll qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, physical or mental disability, age, or veteran status or any other basis protected by federal, state, or local law.\n\nDo You Need Assistance?\n\nIf you need a reasonable accommodation for any part of the employment process, please send an e-mail to buildyourcareer@hii-co.com and let us know the nature of your request and your contact information. Reasonable accommodations are considered on a case-by-case basis. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to from this email address. Additionally, you may also call 1-844-849-8463 for assistance. Press #3 for HII Mission Technologies.",
+        "job_highlights": [
+          {
+            "title": "Minimum Qualifications",
+            "items": [
+              "5 years relevant experience with Bachelors in related field; 3 years relevant experience with Masters in related field; 0 years experience with PhD or Juris Doctorate in related field; or High School Diploma or equivalent and 9 years relevant experience.",
+              "Strong understanding of user experience design principles, information architecture, and accessibility standards.",
+              "Passion for problem-solving, attention to detail, and the ability to thrive in a fast-paced and agile development environment.",
+              "Understanding of Space Domain Awareness.",
+              "There will be a technical coding interview conducted prior to selection for a final interview.",
+              "Proficient in C++",
+              "Able to obtain and maintain a TS/SCI clearance."
+            ]
+          },
+          {
+            "title": "Preferred Requirements",
+            "items": [
+              "Proficiency in C#, AFSIM and Python desired.",
+              "Experience in US and Allied space enterprise position.",
+              "Three (3) years of software development project management experience.",
+              "Experience in deploying software and obtaining authorities to operate on SIPRNet.",
+              "Active DoD Secret or Top-Secret Clearance."
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoRW5naW5lZXIgU29mdHdhcmUgMykgLSAxNzYzNyAxIiwiY29tcGFueV9uYW1lIjoiSElJJ3MgTWlzc2lvbiBUZWNobm9sb2dpZXMgZGl2aXNpb24iLCJhZGRyZXNzX2NpdHkiOiJBbGJ1cXVlcnF1ZSwgTk0iLCJodGlkb2NpZCI6IkFzanduWXlVb21OUmNxQ1RBQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+      },
+      {
+        "title": "Engineer Senior – Software Manager",
+        "company_name": "BAE Systems",
+        "location": "Albuquerque, NM",
+        "via": "BAE Systems",
+        "extensions": [
+          "Full-time"
+        ],
+        "detected_extensions": {
+          "schedule_type": "Full-time"
+        },
+        "description": "Job Description US CITIZENSHIP REQUIRED\n#LI-SMOOT\nA successful candidate is capable of leading and managing our software team (currently 2 people but will ideally be 4). The team will consist of various levels of software engineers with ranging backgrounds and experience. As the team lead, you will be responsible for holding the developers to project timelines, guiding junior team members, ensuring that processes and standards are adhered to, negotiating timelines with the project leads and customer, finding and working solutions to complex time and resource management issues, shifting team focus to new priorities as the customer’s needs shift, managing requirements and expectations, ensuring software needs are being fulfilled, and creating a healthy and balanced team environment.\n\nThe Engineering, Science and Analysis (ESA) Strategic Capabilities Unit comprises the technical talent and organizational leadership that enables the successful delivery of high-impact discriminating technologies for our customers’ missions. Our collaborative, cross-functional teams are committed to innovation, integrity, continual learning and strong execution.\n\nWhat You’ll Do:\n• Lead the software team to success through good management of time and talent.\n• Manage project schedules for the team.\n• Interface with the customer and the project leads.\n• Be the authoritative voice for team decisions and conflict resolution.\n• Govern the GitLab environment and keep the team on track using associated tools.\n• Review and approve merge requests and process milestones.\n• Ensure the team is following processes and standards set forth.\n• Create and maintain processes where needed.\n• Regularly present processes and compliance to the customer.\n• Maintain a regular and predictable work schedule.\n• Establish and maintain effective working relationships within the department, the Strategic Business Units, Strategic Capabilities Units and the Company. Interact appropriately with others in order to maintain a positive and productive work environment.\n• Perform other duties as necessary.\n\nOn-Site Work Environment: This position requires regular in-person engagement by working on-site five days each normally scheduled week in the primary work location. Travel and local commute between company campuses and other possible non-company locations may be required.\n\nWorking Conditions:\n• Work is performed in an office, laboratory, production floor, or cleanroom, outdoors or remote research environment.\n• May occasionally work in production work centers where use of protective equipment and gear is required.\n• May access other facilities in various weather conditions.\nRequired Education, Experience, & Skills\n• BS degree or higher in Engineering or a related technical field is required plus 8 or more years related experience.\n• Each higher-level degree, i.e., Master’s Degree or Ph.D., may substitute for two years of experience. Related technical experience may be considered in lieu of education. Degree must be from a university, college, or school which is accredited by an agency recognized by the US Secretary of Education, US Department of Education.\n• A current, active TS/SCI security clearance is required.\n• Source code management and tools (Git, GitLab, Subversion).\n• Agile development practices.\n• Microsoft Office tools (Word, PowerPoint, SharePoint, etc.).\n• Excellent communication skills.\n• Understanding of C/C++, C#, LabVIEW, and Object-Oriented Programming.\nPreferred Education, Experience, & Skills\n• Embedded Systems development.\n• Embedded Software development and deployment.\n• C/C++, C#, LabVIEW, and Object-Oriented Programming development.\n• Database development and management.\n• Operating System application development and deployment.\n\nPay Information\nFull-Time Salary Range: $137500 - $173500\n\nPlease note: This range is based on our market pay structures. However, individual salaries are determined by a variety of factors including, but not limited to: business considerations, local market conditions, and internal equity, as well as candidate qualifications, such as skills, education, and experience.\n\nEmployee Benefits: At BAE Systems, we support our employees in all aspects of their life, including their health and financial well-being. Regular employees scheduled to work 20+ hours per week are offered: health, dental, and vision insurance; health savings accounts; a 401(k) savings plan; disability coverage; and life and accident insurance. We also have an employee assistance program, a legal plan, and other perks including discounts on things like home, auto, and pet insurance. Our leave programs include paid time off, paid holidays, as well as other types of leave, including paid parental, military, bereavement, and any applicable federal and state sick leave. Employees may participate in the company recognition program to receive monetary or non-monetary recognition awards. Other incentives may be available based on position level and/or job specifics.\nAbout BAE Systems Space & Mission Systems BAE Systems, Inc. is the U.S. subsidiary of BAE Systems plc, an international defense, aerospace and security company which delivers a full range of products and services for air, land and naval forces, as well as advanced electronics, security, information technology solutions and customer support services. Improving the future and protecting lives is an ambitious mission, but it’s what we do at BAE Systems. Working here means using your passion and ingenuity where it counts – defending national security with breakthrough technology, superior products, and intelligence solutions. As you develop the latest technology and defend national security, you will continually hone your skills on a team—making a big impact on a global scale. At BAE Systems, you’ll find a rewarding career that truly makes a difference.\nHeadquartered in Boulder, Colorado, Space & Mission Systems is a leading provider of national defense and civil space applications, advanced remote sensing, scientific and tactical systems for the U.S. Intelligence, Department of Defense and scientific communities. We continually pioneer ways to innovate spacecraft, mission payloads, optical systems, and other defense and civil capabilities. Powered by endlessly curious people with an unwavering mission focus, we continually discover ways to enable our customers to perform beyond expectation and protect what matters most.",
+        "job_highlights": [
+          {
+            "title": "What You’ll Do:",
+            "items": [
+              "Lead the software team to success through good management of time and talent.",
+              "Manage project schedules for the team.",
+              "Interface with the customer and the project leads.",
+              "Be the authoritative voice for team decisions and conflict resolution.",
+              "Govern the GitLab environment and keep the team on track using associated tools.",
+              "Review and approve merge requests and process milestones.",
+              "Ensure the team is following processes and standards set forth.",
+              "Create and maintain processes where needed.",
+              "Regularly present processes and compliance to the customer.",
+              "Maintain a regular and predictable work schedule.",
+              "Establish and maintain effective working relationships within the department, the Strategic Business Units, Strategic Capabilities Units and the Company. Interact appropriately with others in order to maintain a positive and productive work environment.",
+              "Perform other duties as necessary."
+            ]
+          },
+          {
+            "title": "Working Conditions:",
+            "items": [
+              "Work is performed in an office, laboratory, production floor, or cleanroom, outdoors or remote research environment.",
+              "May occasionally work in production work centers where use of protective equipment and gear is required.",
+              "May access other facilities in various weather conditions."
+            ]
+          },
+          {
+            "title": "Required Education, Experience, & Skills",
+            "items": [
+              "BS degree or higher in Engineering or a related technical field is required plus 8 or more years related experience.",
+              "Each higher-level degree, i.e., Master’s Degree or Ph.D., may substitute for two years of experience. Related technical experience may be considered in lieu of education. Degree must be from a university, college, or school which is accredited by an agency recognized by the US Secretary of Education, US Department of Education.",
+              "A current, active TS/SCI security clearance is required.",
+              "Source code management and tools (Git, GitLab, Subversion).",
+              "Agile development practices.",
+              "Microsoft Office tools (Word, PowerPoint, SharePoint, etc.).",
+              "Excellent communication skills.",
+              "Understanding of C/C++, C#, LabVIEW, and Object-Oriented Programming."
+            ]
+          },
+          {
+            "title": "Preferred Education, Experience, & Skills",
+            "items": [
+              "Embedded Systems development.",
+              "Embedded Software development and deployment.",
+              "C/C++, C#, LabVIEW, and Object-Oriented Programming development.",
+              "Database development and management.",
+              "Operating System application development and deployment."
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJFbmdpbmVlciBTZW5pb3Ig4oCTIFNvZnR3YXJlIE1hbmFnZXIiLCJjb21wYW55X25hbWUiOiJCQUUgU3lzdGVtcyIsImFkZHJlc3NfY2l0eSI6IkFsYnVxdWVycXVlLCBOTSIsImh0aWRvY2lkIjoic2htekdnNWxORTdwNnBMdUFBQUFBQT09IiwiaGwiOiJlbiJ9"
+      },
+      {
+        "title": "Software Engineer II (DOE-Q or TS Clearance)",
+        "company_name": "Chenega Corporation",
+        "location": "Albuquerque, NM",
+        "via": "Chenega Careers - Chenega Corporation",
+        "thumbnail": "https://serpapi.com/searches/66a0fc53e0ded42c235e3f40/images/9ac42d3ab90d22ac41f817344b7649578503a46f50e65cb60cf86c30a26bf985.jpeg",
+        "extensions": [
+          "2 days ago",
+          "Full-time"
+        ],
+        "detected_extensions": {
+          "posted_at": "2 days ago",
+          "schedule_type": "Full-time"
+        },
+        "description": "Summary\n\nCome join a company that strives for Extraordinary People and Exceptional Performance! Chenega Professional & Technical Services, LLC, a Chenega Professional Services’ company, is looking for a Software Engineer II to support a software application development project with the Department of Energy’s (DOE), National Nuclear Security Administration (NNSA). The Software Engineer II will support the development, deployment, enhancement, and maintenance of the Clearance Action Tracking System (CATS).\n\nOur company offers employees the opportunity to join a team where there is a robust employee benefits program, management engagement, quality leadership, an atmosphere of teamwork, recognition for performance, and promotion opportunities. We actively strive to channel our highly engaged employee’s knowledge, critical thinking, innovative solutions for our clients.\n\nResponsibilities\n• Build fully operational applications following a standard prescribed methodology that ensures stringent process management, quality assurance, configuration management, and security conformance control.\n• Deliver all prescribed documentation consistent with the level of project effort.\n• Provide maintenance and enhancement services including modernization and feasible customization of business applications.\n• Troubleshoot and repair customized production applications with requirements analysis, quality assurance testing and updated documentation.\n• Conduct all maintenance and enhancement efforts following a standard prescribed methodology that ensures stringent project management, quality assurance, configuration management, and security conformance controls.\n\nQualifications\n• Ability to obtain and maintain DOE “Q” Security Clearance\n• Associates Degree or Technical Certificate in IT or Microsoft Stack technologies\n• 3+ year of ASP.Net, SQL Server experience\n\nKnowledge, Skills and Abilities:\n• Willingness to acquire new skills and master new technologies quickly is required, while a demonstrable eagerness to do so is better still.\n• Knowledge of working in Iterative Agile software development environments is favorable.\n• Must be able to read, write, speak and understand English fluently and possess strong communication skills.\n\nFinal salary determination based on skill-set, qualifications, and approved funding.\n\nMany of our jobs come with great benefits – Some offerings are dependent upon the role, work schedule, or location, and may include the following:\n\nPaid Time Off\n\nPTO / Vacation – 5.67 hours accrued per pay period / 136 hours accrued annually\n\nPaid Holidays - 11\n\nCalifornia residents receive an additional 24 hours of sick leave a year\n\nHealth & Wellness\n\nMedical\n\nDental\n\nVision\n\nPrescription\n\nEmployee Assistance Program\n\nShort- & Long-Term Disability\n\nLife and AD&D Insurance\n\nSpending Account\n\nFlexible Spending Account\n\nHealth Savings Account\n\nHealth Reimbursement Account\n\nDependent Care Spending Account\n\nCommuter Benefits\n\nRetirement\n\n401k / 401a\n\nVoluntary Benefits\n\nHospital Indemnity\n\nCritical Illness\n\nAccident Insurance\n\nPet Insurance\n\nLegal Insurance\n\nID Theft Protection\n\nTeleworking Permitted?\n\nYes\nTeleworking Details\n\n100% Remote\nEstimated Salary/Wage\n\nUSD $75,000.00/Yr. Up to USD $85,000.00/Yr.",
+        "job_highlights": [
+          {
+            "title": "Responsibilities",
+            "items": [
+              "Build fully operational applications following a standard prescribed methodology that ensures stringent process management, quality assurance, configuration management, and security conformance control.",
+              "Deliver all prescribed documentation consistent with the level of project effort.",
+              "Provide maintenance and enhancement services including modernization and feasible customization of business applications.",
+              "Troubleshoot and repair customized production applications with requirements analysis, quality assurance testing and updated documentation.",
+              "Conduct all maintenance and enhancement efforts following a standard prescribed methodology that ensures stringent project management, quality assurance, configuration management, and security conformance controls."
+            ]
+          },
+          {
+            "title": "Qualifications",
+            "items": [
+              "Ability to obtain and maintain DOE “Q” Security Clearance",
+              "Associates Degree or Technical Certificate in IT or Microsoft Stack technologies",
+              "3+ year of ASP.Net, SQL Server experience"
+            ]
+          },
+          {
+            "title": "Knowledge, Skills and Abilities:",
+            "items": [
+              "Willingness to acquire new skills and master new technologies quickly is required, while a demonstrable eagerness to do so is better still.",
+              "Knowledge of working in Iterative Agile software development environments is favorable.",
+              "Must be able to read, write, speak and understand English fluently and possess strong communication skills."
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciBJSSAoRE9FLVEgb3IgVFMgQ2xlYXJhbmNlKSIsImNvbXBhbnlfbmFtZSI6IkNoZW5lZ2EgQ29ycG9yYXRpb24iLCJhZGRyZXNzX2NpdHkiOiJBbGJ1cXVlcnF1ZSwgTk0iLCJodGlkb2NpZCI6IjI0enNTUUY2LVU0VTJWZkhBQUFBQUE9PSIsImhsIjoiZW4ifQ=="
+      },
+      {
+        "title": "Aerospace Software Engineer",
+        "company_name": "Arcfield",
+        "location": "Albuquerque, NM",
+        "via": "Arcfield Careers",
+        "extensions": [
+          "Full-time"
+        ],
+        "detected_extensions": {
+          "schedule_type": "Full-time"
+        },
+        "description": "Overview\n\nArcfield is a leading provider of full lifecycle, mission-focused systems engineering and integration capabilities to the U.S. government and its allies. The company has more than 60 years of proven experience providing advanced engineering and analysis, IT and C5ISR capabilities to support our nation’s most critical national security missions. Headquartered in Chantilly, VA and with 16 offices around the world, Arcfield employs approximately 1,200 engineers, analysts, IT specialists, and other professionals who put our customers’ missions first, helping them solve their most complex challenges through innovations in modeling, simulation and analysis, digital transformation and C5ISR. Visit arcfield.com for more details.\n\nResponsibilities\n\nWho We Are\n\nOrion Space Solutions (Orion) was born out of the vision for applying fundamental space physics knowledge to address real-world problems. Founded in 2005, and based in Louisville, Colorado, Orion is a leader in the “New Space” small satellite industry. We leverage our scientific and engineering expertise to develop unique solutions to address complex space physics challenges, including instrumentation, modeling capabilities, and data analytics; Orion turns science into data, data into knowledge. We are scientists, researchers, engineers and businesspeople dedicated to solving global problems that affect how people live, work and play on our planet and in space through applied science backed by empirical knowledge. If you want to be part of a highly collaborative team, work in an amazing environment surrounded by the best and the brightest, solving BIG problems for our planet, read on.\n\nThis Opportunity\n\nDue to our growing success, we are seeking an experienced, enthusiastic, and dynamic Aerospace Software Engineer to join our team at our Kirkland AFB location to support a key aerospace software development effort. The ideal candidate enjoys developing solutions to complex problems using software tools and scientific practices. They must be comfortable with a wide range of programming languages and eager to learn more. They\n\nshould also be comfortable learning new scientific material to be the Subject Matter Expert for a team of software developers and scientists. One of the key attributes of the ideal candidate is the ability to understand the big picture as well as the details and be able to communicate them well to a large team.\n\nYour Impact\n\nApply your knowledge to improve our ability to deliver quality data and products to the aerospace community by performing the following:\n• Develop software to process and harmonize earth observation data, scientific model output, and satellite orbit data.\n• Assist with the development of scientific processing code to better understand and model scientific phenomenon. Areas of expertise will include spacecraft orbits, spacecraft anomalies, ionospheric modeling, EMI attribution, radar, space weather, GNSS, and many more.\n• Research and create any necessary scientific reference material and assist developers in coding new software application.\n• Document the software in how it currently is, how it should be, and the details of how to implement it.\n• Decompose aerospace/scientific software applications into detailed flows.\n• Rearchitect and design applications to be more modular, efficient, and elegant.\n• Collaborate with a large team using the Agile software development approach.\n• Assist in Business Development activities such as writing proposals and conceptual design in collaboration with industry partners.\n\nSkills\n• Knowledge of orbit dynamics and the space environment\n• Software experience with a wide spread of languages (Python, Rust, C/C++, Fortran, Java, JavaScript/HTML)\n• Cloud software experience (Azure, AWS, GCP)\n• Software containerization experience\n• Excellent technical writing ability\n• Excellent communication skills\n• Proficient with Microsoft Office software suite\n\nQualifications\n\nRequired\n• BS 5-7 Years, MS 3-5, PhD 0-2\n• Ability to obtain and maintain a Secret clearance\n• SEC+ cyber security certificate from CompTia or equivalent\n• Certified AWS or Azure Cloud architect\n\nPreferred\n• Masters’ Degree in Aerospace Engineering strongly preferred (and this will substitute for years of experience)\n• 4+ year’s experience\n• Other: Broad space weather experience, spacecraft orbit software experience, GPS applications experience\n• Experience using Kubernetes to orchestrate complex workflows and clusters\n\nEEO Statement\n\nEEO\n\nArcfield proactively fulfills its role as an equal opportunity employer. We do not discriminate against any employee or applicant for employment because of race, color, sex, religion, age, sexual orientation, gender identity and expression, national origin, marital status, physical or mental disability, status as a Disabled Veteran, Recently Separated Veteran, Active-Duty Wartime or Campaign Badge Veteran, Armed Forces Services Medal, or any other characteristic protected by law.",
+        "job_highlights": [
+          {
+            "title": "Apply your knowledge to improve our ability to deliver quality data and products to the aerospace community by performing the following:",
+            "items": [
+              "Develop software to process and harmonize earth observation data, scientific model output, and satellite orbit data.",
+              "Assist with the development of scientific processing code to better understand and model scientific phenomenon. Areas of expertise will include spacecraft orbits, spacecraft anomalies, ionospheric modeling, EMI attribution, radar, space weather, GNSS, and many more.",
+              "Research and create any necessary scientific reference material and assist developers in coding new software application.",
+              "Document the software in how it currently is, how it should be, and the details of how to implement it.",
+              "Decompose aerospace/scientific software applications into detailed flows.",
+              "Rearchitect and design applications to be more modular, efficient, and elegant.",
+              "Collaborate with a large team using the Agile software development approach.",
+              "Assist in Business Development activities such as writing proposals and conceptual design in collaboration with industry partners."
+            ]
+          },
+          {
+            "title": "Skills",
+            "items": [
+              "Knowledge of orbit dynamics and the space environment",
+              "Software experience with a wide spread of languages (Python, Rust, C/C++, Fortran, Java, JavaScript/HTML)",
+              "Cloud software experience (Azure, AWS, GCP)",
+              "Software containerization experience",
+              "Excellent technical writing ability",
+              "Excellent communication skills",
+              "Proficient with Microsoft Office software suite"
+            ]
+          },
+          {
+            "title": "Required",
+            "items": [
+              "BS 5-7 Years, MS 3-5, PhD 0-2",
+              "Ability to obtain and maintain a Secret clearance",
+              "SEC+ cyber security certificate from CompTia or equivalent",
+              "Certified AWS or Azure Cloud architect"
+            ]
+          },
+          {
+            "title": "Preferred",
+            "items": [
+              "Masters’ Degree in Aerospace Engineering strongly preferred (and this will substitute for years of experience)",
+              "4+ year’s experience",
+              "Other: Broad space weather experience, spacecraft orbit software experience, GPS applications experience",
+              "Experience using Kubernetes to orchestrate complex workflows and clusters"
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJBZXJvc3BhY2UgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJBcmNmaWVsZCIsImFkZHJlc3NfY2l0eSI6IkFsYnVxdWVycXVlLCBOTSIsImh0aWRvY2lkIjoiU0NSQXY1dnpBcU5NakZFN0FBQUFBQT09IiwiaGwiOiJlbiJ9"
+      },
+      {
+        "title": "R&D Computer Science Software Engineer/Satellite Remote Systems (Experienced) - Onsite",
+        "company_name": "Sandia National Laboratories",
+        "location": "Albuquerque, NM",
+        "via": "University Jobs.com",
+        "thumbnail": "https://serpapi.com/searches/66a0fc53e0ded42c235e3f40/images/9ac42d3ab90d22ac63c7d585bc7ef2db7ff1422df652d8b6cc5c497d3ba38ec8.png",
+        "extensions": [
+          "Full-time and Part-time"
+        ],
+        "detected_extensions": {
+          "schedule_type": "Full-time and Part-time"
+        },
+        "description": "About Sandia:\n\nSandia National Laboratories is the nation’s premier science and engineering lab for national security and technology innovation, with teams of specialists focused on cutting-edge work in a broad array of areas. Some of the main reasons we love our jobs:\n\nChallenging work with amazing impact that contributes to security, peace, and freedom worldwide\n\nExtraordinary co-workers\n\nSome of the best tools, equipment, and research facilities in the world\n\nCareer advancement and enrichment opportunities\n\nFlexible work arrangements for many positions include 9/80 (work 80 hours every two weeks, with every other Friday off) and 4/10 (work 4 ten-hour days each week) compressed workweeks, part-time work, and telecommuting (a mix of onsite work and working from home)\n\nGenerous vacations, strong medical and other benefits, competitive 401k, learning opportunities, relocation assistance and amenities aimed at creating a solid work/life balance*\n\nWorld-changing technologies. Life-changing careers. Learn more about Sandia at: http://www.sandia.gov*These benefits vary by job classification.\n\nWhat Your Job Will Be Like:\n\nWe are seeking a R&D Computer Science Software Developer to work on a dynamic team dedicated to the development and maintenance of software applications used by organizations across the satellite enterprise. Our team uses a variety of languages in developing our software applications including Java, C#, C++, PHP, JQuery, Go, PL/SQL, and PERL.\n\nWe develop, host and administer our own databases which include Oracle, MySQL, Mongo and SQLServer and use a variety of methods to realize this mission including using incremental model, agile and waterfall methodologies. While the position requires rigor throughout the development lifecycle, opportunities exist for creative software development solutions.\n\nOn any given day, you may be called on to:\n\nGather requirements and develop software applications.\n\nConduct testing, maintenance, and enhancement of software applications.\n\nWrite scripts to ingest data coming from satellite ground systems.\n\nPossess strong dedication to positive teaming dynamics essential for successful collaboration on a team of system users and customer management.\n\nThis is an opportunity to become involved in a high visibility program area that manages the full range of remote sensing space system payloads and ground system software. Improved design, development, realization, and quality are all major thrusts of our program. Due to the nature of the work, the selected applicant must be able to work onsite.\n\nSalary Range:\n\n$109,300 - $217,400\n• Salary range is estimated, and actual salary will be determined after consideration of the selected candidate's experience and qualifications, and application of any approved geographic salary differential.\n\nQualifications We Require:\n\nBachelor’s degree in computer science, software engineering or computer engineering or other relevant STEM degree plus five or more years of relevant experience or master's degree in the above stated fields plus two years of relevant experience.\n\nExperience with software design, development skills, and modern software development practices and tools.\n\nExperience (included in the requirement experience above) with developing software in languages such as C, C++, Java, etc.\n\nAbility to obtain and maintain a required DOE security clearance.\n\nQualifications We Desire:\n\nMaster's degree in computer science or software engineering\n\nStrong written and verbal skills, detail oriented with a keen focus on customer service\n\nExperience in programming Python, C#\n\nLinux experience\n\nLinux System Administration experience a plus\n\nRelational database experience (MySQL, PostgreSQL, Oracle)\n\nExperience with Oracle DB a plus\n\nExperience using version control tools such as git in a configuration-controlled software environment\n\nCI/CD tools such as Maven, Jenkins, Gitlab, GitHub, or Docker\n\nExperience in testing frameworks such as UnitTest, JUnit\n\nCurrent and active DOE \"Q\" security clearance or \"L\" clearance with ability to obtain a \"Q\".\n\nAbout Our Team:\n\nOur Mission Software Development and Integrated Solutions team is responsible for developing software and hardware solutions to complex science and engineering problems throughout the Satellite enterprise using industry standard practices and methodologies particularly for the Global Burst Detector (GBD) program. We also serve as the Control Account Manager (CAM) for the GBD Payload Processor (GPP) and Optical Processing for the GBD payload, providing project lead support and developer resources.\n\nOur Center 6700 applications and hardware solutions include: classified standalone networks; custom server builds; VM hosting; large data storage arrays and backups; private network; cyber security; software interfaces to hardware; tracking engineering change orders; capturing nonconformity issues; configuration management and document control solutions; software bug tracking; routings and work-in-process functions; lab temperature and humidity monitoring; Oracle manufacturing custom interfaces; a host of reporting capabilities\n\nPosting Duration:\n\nThis posting will be open for application submissions for a minimum of seven (7) calendar days, including the ‘posting date’. Sandia reserves the right to extend the posting date at any time.\n\nSecurity Clearance:\n\nSandia is required by DOE to conduct a pre-employment drug test and background review that includes checks of personal references, credit, law enforcement records, and employment/education verifications. Applicants for employment need to be able to obtain and maintain a DOE Q-level security clearance, which requires U.S. citizenship. If you hold more than one citizenship (i.e., of the U.S. and another country), your ability to obtain a security clearance may be impacted.\n\nApplicants offered employment with Sandia are subject to a federal background investigation to meet the requirements for access to classified information or matter if the duties of the position require a DOE security clearance. Substance abuse or illegal drug use, falsification of information, criminal activity, serious misconduct or other indicators of untrustworthiness can cause a clearance to be denied or terminated by DOE, resulting in the inability to perform the duties assigned and subsequent termination of employment.\n\nEEO:\n\nAll qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, or veteran status and any other protected class under state or federal law.\n\nNNSA Requirements for MedPEDs:\n\nIf you have a Medical Portable Electronic Device (MedPED), such as a pacemaker, defibrillator, drug-releasing pump, hearing aids, or diagnostic equipment and other equipment for measuring, monitoring, and recording body functions such as heartbeat and brain waves, if employed by Sandia National Laboratories you may be required to comply with NNSA security requirements for MedPEDs.\n\nIf you have a MedPED and you are selected for an on-site interview at Sandia National Laboratories, there may be additional steps necessary to ensure compliance with NNSA security requirements prior to the interview date.\n\nJob ID: 693581\n\nJob Family: RD\n\nRegular/Temporary Position: R\n\nFull/Part-Time Status: F",
+        "job_highlights": [
+          {
+            "title": "$109,300 - $217,400",
+            "items": [
+              "Salary range is estimated, and actual salary will be determined after consideration of the selected candidate's experience and qualifications, and application of any approved geographic salary differential."
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJSXHUwMDI2RCBDb21wdXRlciBTY2llbmNlIFNvZnR3YXJlIEVuZ2luZWVyL1NhdGVsbGl0ZSBSZW1vdGUgU3lzdGVtcyAoRXhwZXJpZW5jZWQpIC0gT25zaXRlIiwiY29tcGFueV9uYW1lIjoiU2FuZGlhIE5hdGlvbmFsIExhYm9yYXRvcmllcyIsImFkZHJlc3NfY2l0eSI6IkFsYnVxdWVycXVlLCBOTSIsImh0aWRvY2lkIjoiS2dvWjg2U056dGM3RldtT0FBQUFBQT09IiwiaGwiOiJlbiJ9"
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company_name": "Communities.Tech",
+        "location": "Albuquerque, NM",
+        "via": "Indeed",
+        "extensions": [
+          "Full-time",
+          "No degree mentioned"
+        ],
+        "detected_extensions": {
+          "schedule_type": "Full-time"
+        },
+        "description": "About Us\n\nCommunities.Technology is a technology company based in Amarillo, Texas. We specialize in building vertical platforms that cater to the diverse needs of communities, empowering businesses and individuals. By using sound business logic and leveraging technology, we create innovative solutions that drive growth and prosperity.\n\nRole Description\n\nThis is a full-time on-site role for a Senior Software Engineer. The Senior Software Engineer will be responsible for developing and maintaining front and back-end web applications using their expertise in software development. They will work closely with the development team to design and implement scalable solutions, as well as contribute to the overall architecture and design of the software.\n\nQualifications\n• More than 4+ years of experience with React/Node\n• Proficient in problem-solving and debugging\n• Ability to collaborate effectively with cross-functional teams\n• Excellent communication and documentation skills\n• Strong attention to detail and ability to prioritize tasks\n• Experience with Agile/Scrum methodologies is a plus\n\nWhat We Offer\n• In-house Gym Membership\n• Company laptop\n• Comprehensive medical, dental, and vision insurance\n• 401k\n• Paid vacation\n• Opportunities for career advancement\n\nJob Type: Full-time\n\nBenefits:\n• 401(k)\n• Dental insurance\n• Health insurance\n• Paid time off\n• Vision insurance\n\nCompensation package:\n• Weekly pay\n\nExperience level:\n• 5 years\n• 6 years\n\nSchedule:\n• Monday to Friday\n\nApplication Question(s):\n• Do you work within React on a daily basis or have in the past?\n• Do you live in Amarillo or willing to relocate? This is a in person position with WFH on Thursdays.\n\nExperience:\n• React: 4 years (Required)\n\nAbility to Relocate:\n• Albuquerque, NM: Relocate before starting work (Required)\n\nWork Location: In person",
+        "job_highlights": [
+          {
+            "title": "Qualifications",
+            "items": [
+              "More than 4+ years of experience with React/Node",
+              "Proficient in problem-solving and debugging",
+              "Ability to collaborate effectively with cross-functional teams",
+              "Excellent communication and documentation skills",
+              "Strong attention to detail and ability to prioritize tasks",
+              "Experience with Agile/Scrum methodologies is a plus"
+            ]
+          },
+          {
+            "title": "What We Offer",
+            "items": [
+              "In-house Gym Membership",
+              "Company laptop",
+              "Comprehensive medical, dental, and vision insurance",
+              "401k",
+              "Paid vacation",
+              "Opportunities for career advancement"
+            ]
+          },
+          {
+            "title": "Benefits:",
+            "items": [
+              "401(k)",
+              "Dental insurance",
+              "Health insurance",
+              "Paid time off",
+              "Vision insurance"
+            ]
+          },
+          {
+            "title": "Compensation package:",
+            "items": [
+              "Weekly pay"
+            ]
+          },
+          {
+            "title": "Experience level:",
+            "items": [
+              "5 years",
+              "6 years"
+            ]
+          },
+          {
+            "title": "Schedule:",
+            "items": [
+              "Monday to Friday"
+            ]
+          },
+          {
+            "title": "Application Question(s):",
+            "items": [
+              "Do you work within React on a daily basis or have in the past?",
+              "Do you live in Amarillo or willing to relocate? This is a in person position with WFH on Thursdays."
+            ]
+          },
+          {
+            "title": "Experience:",
+            "items": [
+              "React: 4 years (Required)"
+            ]
+          },
+          {
+            "title": "Ability to Relocate:",
+            "items": [
+              "Albuquerque, NM: Relocate before starting work (Required)"
+            ]
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJDb21tdW5pdGllcy5UZWNoIiwiYWRkcmVzc19jaXR5IjoiQWxidXF1ZXJxdWUsIE5NIiwiaHRpZG9jaWQiOiJQTUIyb2hYVHRTMGEtdWFaQUFBQUFBPT0iLCJobCI6ImVuIn0="
+      }
+    ]
+  }

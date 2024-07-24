@@ -1,5 +1,6 @@
 from serpapi import GoogleSearch
 from usable import *
+import json
 
 serp_api_token = open('/Users/stefaniancu/Documents/VS Code/JobScraperEngine/API_TOKENS/serpapitoken.txt').read(256)
 print(serp_api_token)
@@ -84,6 +85,7 @@ frameworks = {
 languages = {
     'C++' : 0,
     'C' : 0,
+    'Fortran' : 0,
     'Java' : 0,
     'Python' : 0,
     'PHP' : 0,
@@ -100,8 +102,12 @@ languages = {
 
 all_skills = [languages,  tools, databases, cloud, libraries, frameworks]
 
-search = GoogleSearch(params)
-results = search.get_dict().get('jobs_results', [])
+#search = GoogleSearch(params)
+#results = search.get_dict().get('jobs_results', [])
+json_content = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/one_search.json").read(200000)
+
+results = json.loads(json_content).get('jobs_results', [])
+
 for job in results:
     job_highlights = job.get('job_highlights', [])
     for highlight in job_highlights:
@@ -109,9 +115,11 @@ for job in results:
         for item in items:
                 for skill in all_skills:
                     for niche in skill:
-                        if len(niche) == 1 and check_isolated_letter(item, niche):
-                            skill[niche] += 1
+                        if len(niche) == 1:
+                            if check_isolated_letter(item, niche):
+                                skill[niche] += 1
                         elif check_isolated_word(item, niche) or niche in item:
+                            #print(niche)
                             skill[niche] += 1
     
 
