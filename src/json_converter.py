@@ -1,6 +1,11 @@
 import json
 import heapq
 
+json_file = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/locations.json").read(9999999999)
+locations = json.loads(json_file)
+priority_queue = []
+
+
 class location:
     def __init__(self, dict):
         self.name = dict.get('canonical_name', [])
@@ -17,17 +22,21 @@ def push(queue, item):
 def pop(queue):
     return heapq.heappop(queue)
 
-json_file = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/locations.json").read(9999999999)
+def fill_queue():
+    global priority_queue,locations
+    for loc in locations:
+        new = location(loc)
+        push(priority_queue, new)
 
-locations = json.loads(json_file)
 
-priority_queue = []
+def extract_countries():
+    fill_queue()
+    list = []
+    list.append("China")
+    global priority_queue
+    for x in range(98):
+        list.append(pop(priority_queue).name)
+    return list
 
-for loc in locations:
-    new = location(loc)
-    push(priority_queue, new)
-    #print(new.name, new.population)
 
-for x in range (100):
-    temp = pop(priority_queue)
-    print(temp.name, temp.population)
+print(extract_countries())
