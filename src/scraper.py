@@ -7,7 +7,7 @@ print(serp_api_token)
 
 params = {
   "engine": "google_jobs",
-  #"location" : "New York,United States",
+  "location" : "India",
   "q": "Software Engineer",
   "hl": "en",
   "api_key": serp_api_token
@@ -102,11 +102,10 @@ languages = {
 
 all_skills = [languages,  tools, databases, cloud, libraries, frameworks]
 
-#search = GoogleSearch(params)
-#results = search.get_dict().get('jobs_results', [])
-json_content = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/one_search.json").read(200000)
-
-results = json.loads(json_content).get('jobs_results', [])
+search = GoogleSearch(params)
+results = search.get_dict().get('jobs_results', [])
+#json_content = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/one_search.json").read(200000)
+#results = json.loads(json_content).get('jobs_results', [])
 
 for job in results:
     job_highlights = job.get('job_highlights', [])
