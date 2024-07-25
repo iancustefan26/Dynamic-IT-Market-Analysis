@@ -131,11 +131,10 @@ def get_skills_for_role(role_name, locations):
                                 if check_isolated_letter(item, niche):
                                     skill[niche] += 1
                             elif check_isolated_word(item, niche) or niche in item:
-                                #print(niche)
                                 skill[niche] += 1
     return all_skills
 
-def get_skills_for_all_role(locations):
+def get_skills_for_all_roles(locations):
     global all_skills, serp_api_token, roles
     for role in roles:
         for location in locations:
@@ -159,7 +158,5 @@ def get_skills_for_all_role(locations):
                                     if check_isolated_letter(item, niche):
                                         skill[niche] += 1
                                 elif check_isolated_word(item, niche) or niche in item:
-                                    #print(niche)
                                     skill[niche] += 1
     return all_skills
-    
