@@ -1,11 +1,11 @@
 from serpapi import GoogleSearch
 from usable import *
-from json_converter import extract_countries
+from json_convertor import extract_countries
 
 serp_api_token = open('/Users/stefaniancu/Documents/VS Code/JobScraperEngine/API_TOKENS/serpapitoken.txt').read(256)
-locations = extract_countries()
+locations = extract_countries(5)
 roles = [
-    "Software Engineer"
+    "Software Engineer",
     "Data Scientist",
     "Machine Learning Engineer",
     "Cloud Engineer",
@@ -98,42 +98,68 @@ languages = {
     'NoSQL' : 0,
 }
 
-all_skills = [languages,  tools, databases, cloud, libraries, frameworks]
+all_skills = [
+    languages,
+    cloud,
+    tools,
+    databases,
+    frameworks,
+    libraries
+]
 
-params = {
-  "engine": "google_jobs",
-  "location" : "India",
-  "q": "Software Engineer",
-  "hl": "en",
-  "api_key": serp_api_token
-}
 
-search = GoogleSearch(params)
-results = search.get_dict().get('jobs_results', [])
-#json_content = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/one_search.json").read(200000)
-#results = json.loads(json_content).get('jobs_results', [])
-
-for job in results:
-    job_highlights = job.get('job_highlights', [])
-    for highlight in job_highlights:
-        items = highlight.get('items', [])
-        for item in items:
-                for skill in all_skills:
-                    for niche in skill:
-                        if len(niche) == 1:
-                            if check_isolated_letter(item, niche):
+def get_skills_for_role(role_name, locations):
+    global all_skills, serp_api_token
+    for location in locations:
+        params = {
+            "engine": "google_jobs",
+            "location" : location,
+            "q": role_name,
+            "hl": "en",
+            "api_key": serp_api_token
+        }
+        search = GoogleSearch(params)
+        results = search.get_dict().get('jobs_results', [])
+        for job in results:
+            job_highlights = job.get('job_highlights', [])
+            for highlight in job_highlights:
+                items = highlight.get('items', [])
+                for item in items:
+                    for skill in all_skills:
+                        for niche in skill:
+                            if len(niche) == 1:
+                                if check_isolated_letter(item, niche):
+                                    skill[niche] += 1
+                            elif check_isolated_word(item, niche) or niche in item:
+                                #print(niche)
                                 skill[niche] += 1
-                        elif check_isolated_word(item, niche) or niche in item:
-                            #print(niche)
-                            skill[niche] += 1
+    return all_skills
+
+def get_skills_for_all_role(locations):
+    global all_skills, serp_api_token, roles
+    for role in roles:
+        for location in locations:
+            params = {
+                "engine": "google_jobs",
+                "location" : location,
+                "q": role,
+                "hl": "en",
+                "api_key": serp_api_token
+            }
+            search = GoogleSearch(params)
+            results = search.get_dict().get('jobs_results', [])
+            for job in results:
+                job_highlights = job.get('job_highlights', [])
+                for highlight in job_highlights:
+                    items = highlight.get('items', [])
+                    for item in items:
+                        for skill in all_skills:
+                            for niche in skill:
+                                if len(niche) == 1:
+                                    if check_isolated_letter(item, niche):
+                                        skill[niche] += 1
+                                elif check_isolated_word(item, niche) or niche in item:
+                                    #print(niche)
+                                    skill[niche] += 1
+    return all_skills
     
-
-
-for skill in all_skills:
-    for key, value in skill.items():
-        print(f"{key} -- {value}")
-
-                
-#print(results)
-
-

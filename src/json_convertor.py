@@ -5,7 +5,6 @@ json_file = open("/Users/stefaniancu/DOcuments/VS Code/JobScraperEngine/jsons/lo
 locations = json.loads(json_file)
 priority_queue = []
 
-
 class location:
     def __init__(self, dict):
         self.name = dict.get('canonical_name', [])
@@ -29,14 +28,12 @@ def fill_queue():
         push(priority_queue, new)
 
 
-def extract_countries():
+def extract_countries(number):
     fill_queue()
     list = []
     list.append("China")
     global priority_queue
-    for x in range(98):
+    for x in range(number - 1):
         list.append(pop(priority_queue).name)
     return list
 
-
-print(extract_countries())

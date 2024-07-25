@@ -1,4 +1,5 @@
 import re
+import inspect
 
 def check_isolated_word(string, word):
     pattern = rf'(^|[^a-zA-Z]){word}([^a-zA-Z]|$)'
@@ -11,3 +12,9 @@ def check_isolated_letter(text, letter):
     matches = re.findall(pattern, text)
     
     return bool(matches)
+
+def get_variable_name(var):
+    callers_local_vars = inspect.currentframe().f_back.f_locals.items()
+    for var_name, var_val in callers_local_vars:
+        if var_val is var:
+            return var_name
