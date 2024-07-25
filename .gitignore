@@ -3,3 +3,6 @@ API_TOKENS
 
 # Ignore Python compiled files
 src/__pycache__
+
+#Ignore Mac generated files
+.DS_Store

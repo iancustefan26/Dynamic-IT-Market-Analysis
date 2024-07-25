@@ -17,8 +17,6 @@ tools = {
     'SAS' : 0,
     'PowerPoint' : 0,
     'SAP' : 0,
-    'Word' : 0,
-    'Word' : 0,
     'Looker' : 0,
     'SSIS' : 0,
     'Docker' : 0,
