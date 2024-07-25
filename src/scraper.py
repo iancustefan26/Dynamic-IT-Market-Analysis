@@ -1,18 +1,16 @@
 from serpapi import GoogleSearch
 from usable import *
-import json
+from json_converter import extract_countries
 
 serp_api_token = open('/Users/stefaniancu/Documents/VS Code/JobScraperEngine/API_TOKENS/serpapitoken.txt').read(256)
-print(serp_api_token)
-
-params = {
-  "engine": "google_jobs",
-  "location" : "India",
-  "q": "Software Engineer",
-  "hl": "en",
-  "api_key": serp_api_token
-}
-
+locations = extract_countries()
+roles = [
+    "Software Engineer"
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Cloud Engineer",
+    "Cybersecurity Specialist"
+    ]
 
 tools = {
     "Tableau" : 0,
@@ -101,6 +99,14 @@ languages = {
 }
 
 all_skills = [languages,  tools, databases, cloud, libraries, frameworks]
+
+params = {
+  "engine": "google_jobs",
+  "location" : "India",
+  "q": "Software Engineer",
+  "hl": "en",
+  "api_key": serp_api_token
+}
 
 search = GoogleSearch(params)
 results = search.get_dict().get('jobs_results', [])
