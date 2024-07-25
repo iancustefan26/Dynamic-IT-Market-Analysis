@@ -1,16 +1,14 @@
 from serpapi import GoogleSearch
 from usable import *
-from json_convertor import extract_countries
 
 serp_api_token = open('/Users/stefaniancu/Documents/VS Code/JobScraperEngine/API_TOKENS/serpapitoken.txt').read(256)
-locations = extract_countries(5)
 roles = [
     "Software Engineer",
     "Data Scientist",
     "Machine Learning Engineer",
     "Cloud Engineer",
     "Cybersecurity Specialist"
-    ]
+]
 
 tools = {
     "Tableau" : 0,
