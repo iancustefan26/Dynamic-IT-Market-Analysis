@@ -2,7 +2,7 @@ from scraper import get_skills_for_all_roles, get_skills_for_role
 from json_convertor import extract_countries
 from store_into_database import store_for_one_role, extract_count_for_role, roles_id, skills_id
 
-locations = extract_countries(2)
+locations = extract_countries(7)
 
 results = get_skills_for_role("Data Scientist", locations)
 
