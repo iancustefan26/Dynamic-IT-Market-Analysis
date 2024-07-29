@@ -6,3 +6,6 @@ src/__pycache__
 
 #Ignore Mac generated files
 .DS_Store
+
+#Ignore database passwords
+credentials
