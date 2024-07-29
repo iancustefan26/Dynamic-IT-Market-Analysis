@@ -31,3 +31,19 @@ def store_for_one_role(table_name, role_id, skill_id, count, skill_column_name):
     cursor.execute(query, data)
     connection.commit()
     print(cursor.rowcount, "record inserted.")
+
+def extract_count_for_role(role_id):
+    global connection, cursor
+    query = f"""SELECT r.name as role_name, l.name as language_name, rl.count
+                FROM role_languages rl
+                JOIN roles r ON rl.role_id = r.id
+                JOIN languages l ON rl.language_id = l.id
+                WHERE r.id = {role_id};"""
+    cursor.execute(query)
+    result = cursor.fetchall()
+    for row in result:
+        print(row)
+    return result
+
+
+x = extract_count_for_role(1)
