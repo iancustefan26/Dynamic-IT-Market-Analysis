@@ -31,9 +31,8 @@ def fill_queue():
 def extract_countries(number):
     fill_queue()
     list = []
-    list.append("China")
     global priority_queue
-    for x in range(number - 1):
+    for x in range(number):
         list.append(pop(priority_queue).name)
     return list
 

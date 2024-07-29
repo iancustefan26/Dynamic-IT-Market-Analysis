@@ -2,6 +2,7 @@ from serpapi import GoogleSearch
 from usable import *
 
 serp_api_token = open('/Users/stefaniancu/Documents/VS Code/JobScraperEngine/API_TOKENS/serpapitoken.txt').read(256)
+
 roles = [
     "Software Engineer",
     "Data Scientist",
@@ -17,6 +18,8 @@ tools = {
     'SAS' : 0,
     'PowerPoint' : 0,
     'SAP' : 0,
+    'Word' : 0,
+    'Word' : 0,
     'Looker' : 0,
     'SSIS' : 0,
     'Docker' : 0,
@@ -65,7 +68,6 @@ frameworks = {
     'Express' : 0,
     'Node' : 0,
     'Angular' : 0,
-    'Ruby' : 0,
     'Flask' : 0,
     'Django' : 0,
     'Phoenix' : 0,
@@ -91,7 +93,7 @@ languages = {
     'R' : 0,
     'Bash' : 0,
     'SQL' : 0,
-    'NoSQL' : 0,
+    'NoSQL' : 0
 }
 
 all_skills = [
@@ -128,6 +130,14 @@ def get_skills_for_role(role_name, locations):
                                     skill[niche] += 1
                             elif check_isolated_word(item, niche) or niche in item:
                                 skill[niche] += 1
+                job_description = job.get('description', [])
+                for skill in all_skills:
+                    for niche in skill:
+                        if len(niche) == 1:
+                            if check_isolated_letter(job_description, niche):
+                                skill[niche] += 1
+                        elif check_isolated_word(job_description, niche) or niche in item:
+                            skill[niche] += 1
     return all_skills
 
 def get_skills_for_all_roles(locations):
@@ -155,4 +165,12 @@ def get_skills_for_all_roles(locations):
                                         skill[niche] += 1
                                 elif check_isolated_word(item, niche) or niche in item:
                                     skill[niche] += 1
+                    job_description = job.get('description', [])
+                    for skill in all_skills:
+                        for niche in skill:
+                            if len(niche) == 1:
+                                if check_isolated_letter(job_description, niche):
+                                    skill[niche] += 1
+                            elif check_isolated_word(job_description, niche) or niche in item:
+                                skill[niche] += 1
     return all_skills
