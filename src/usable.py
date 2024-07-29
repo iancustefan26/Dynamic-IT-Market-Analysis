@@ -1,6 +1,8 @@
 import re
 import inspect
 
+aboslute_path = "/Users/stefaniancu/Documents/VS Code/JobScraperEngine/"  #no idea why relative path with .. doesn't work
+
 def check_isolated_word(string, word):
     pattern = rf'(^|[^a-zA-Z]){word}([^a-zA-Z]|$)'
     return re.search(pattern, string) is not None
