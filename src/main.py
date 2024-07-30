@@ -1,8 +1,9 @@
 from scraper import get_skills_for_all_roles, get_skills_for_role
 from json_convertor import extract_countries
 from store_into_database import store_for_one_role, extract_count_for_role, roles_id, skills_id
+from scraper import roles
 
-locations = extract_countries(7)
+locations = extract_countries(2)
 
 results = get_skills_for_role("Data Scientist", locations)
 
@@ -34,18 +35,21 @@ skills = [
     "cloud_services"
 ]
 
-for dict, table_name, column_name in zip(results, table_names, skill_column_names):
-    for skill in dict:
-        #print(1, skills_id[skill], dict[skill])
-        store_for_one_role(
-            table_name,
-            roles_id["Data Scientist"],
-            skills_id[skill],
-            dict[skill],
-            column_name
-        )
+for role in roles:
+    for dict, table_name, column_name in zip(results, table_names, skill_column_names):
+        for skill in dict:
+            #print(1, skills_id[skill], dict[skill])
+            store_for_one_role(
+                table_name,
+                roles_id[role],
+                skills_id[skill],
+                dict[skill],
+                column_name
+            )
 
 print(f"Searchings have been done for locations : {locations}")
 
-for skill in skills:
-    extract_count_for_role(2, skill)
+
+for id in range(1, 5):
+    for skill in skills:
+        extract_count_for_role(id, skill)
