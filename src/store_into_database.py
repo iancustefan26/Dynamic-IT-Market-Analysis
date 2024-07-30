@@ -124,8 +124,6 @@ def extract_count_for_role(role_id, skill_name):
                 WHERE r.id = {role_id};"""
     cursor.execute(query)
     result = cursor.fetchall()
-    for row in result:
-        print(row)
     return result
 
 def clear_database():
