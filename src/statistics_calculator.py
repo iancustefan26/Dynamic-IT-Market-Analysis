@@ -1,6 +1,6 @@
-from store_into_database import extract_count_for_role, roles_id
+from store_into_database import extract_count_for_role
 from scraper import roles
-
+from usable import roles_id
 
 def calculate_statistics(role = "ALL", skill = "languages"):
     global roles
@@ -36,5 +36,5 @@ def calculate_statistics(role = "ALL", skill = "languages"):
                 percentages[row] = 0.00
     return percentages
 
-x = calculate_statistics('ALL', "databases")
-print(x)
+for role in roles:
+        print(role, calculate_statistics(role, "languages"), end = "\n")

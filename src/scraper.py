@@ -3,14 +3,6 @@ from usable import *
 
 serp_api_token = open('/Users/stefaniancu/Documents/VS Code/JobScraperEngine/API_TOKENS/serpapitoken.txt').read(256)
 
-roles = [
-    "Software Engineer",
-    "Data Scientist",
-    "Machine Learning Engineer",
-    "Cloud Engineer",
-    "Cybersecurity Specialist"
-]
-
 tools = {
     "Tableau" : 0,
     'Excel' : 0,
