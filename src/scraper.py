@@ -129,38 +129,3 @@ def get_skills_for_role(role_name, locations):
                         elif check_isolated_word(job_description, niche) or niche in item:
                             skill[niche] += 1
     return all_skills
-
-def get_skills_for_all_roles(locations):
-    global all_skills, serp_api_token, roles
-    for role in roles:
-        for location in locations:
-            params = {
-                "engine": "google_jobs",
-                "location" : location,
-                "q": role,
-                "hl": "en",
-                "api_key": serp_api_token
-            }
-            search = GoogleSearch(params)
-            results = search.get_dict().get('jobs_results', [])
-            for job in results:
-                job_highlights = job.get('job_highlights', [])
-                for highlight in job_highlights:
-                    items = highlight.get('items', [])
-                    for item in items:
-                        for skill in all_skills:
-                            for niche in skill:
-                                if len(niche) == 1:
-                                    if check_isolated_letter(item, niche):
-                                        skill[niche] += 1
-                                elif check_isolated_word(item, niche) or niche in item:
-                                    skill[niche] += 1
-                    job_description = job.get('description', [])
-                    for skill in all_skills:
-                        for niche in skill:
-                            if len(niche) == 1:
-                                if check_isolated_letter(job_description, niche):
-                                    skill[niche] += 1
-                            elif check_isolated_word(job_description, niche) or niche in item:
-                                skill[niche] += 1
-    return all_skills

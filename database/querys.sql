@@ -189,6 +189,10 @@ CREATE TABLE role_databases (
     FOREIGN KEY (role_id) REFERENCES roles(id),
     FOREIGN KEY (database_id) REFERENCES dbases(id)
 );
+
+use jobs;
+drop database jobs;
+
 --INSERT INTO role_tools (role_id, tool_id, count)
 --VALUES 
   --  (1, 1, 5),  -- role_id 1 refers to 'Software Engineer', tool_id 1 (Tableau) 5 times
