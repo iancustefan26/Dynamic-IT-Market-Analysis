@@ -1,6 +1,6 @@
 from scraper import get_skills_for_role
 from json_convertor import extract_countries
-from db_operations import store_for_one_role
+from db_operations import store_for_one_role, close_database
 from scraper import roles
 from usable import table_names, skill_column_names, roles_id, skills_id
 
@@ -18,3 +18,5 @@ for role in roles:
                 dict[skill],
                 column_name
             )
+            
+close_database()
