@@ -9,3 +9,12 @@ src/__pycache__
 
 #Ignore database passwords
 credentials
+
+stats-display/node_modules
+stats-display/public
+stats-display/.env
+stats-display/.gitignore
+stats-display/babel.config.json
+stats-display/package.json
+stats-display/package-lock.json
+stats-display/README.md
