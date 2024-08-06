@@ -16,7 +16,8 @@ cursor = connection.cursor()
 def store_for_one_role(table_name, role_id, skill_id, count, skill_column_name):
     global cursor, connection
     query = f"""INSERT INTO {table_name} (role_id, {skill_column_name}, count)
-                VALUES (%s, %s, %s)"""
+                VALUES (%s, %s, %s)
+                ON DUPLICATE KEY UPDATE count = count + VALUES(count)"""
     data = (role_id, skill_id, count)
     try:
         cursor.execute(query, data)

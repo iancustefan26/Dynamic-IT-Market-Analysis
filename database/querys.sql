@@ -193,24 +193,3 @@ CREATE TABLE role_databases (
 use jobs;
 drop database jobs;
 
---INSERT INTO role_tools (role_id, tool_id, count)
---VALUES 
-  --  (1, 1, 5),  -- role_id 1 refers to 'Software Engineer', tool_id 1 (Tableau) 5 times
-  -- (1, 2, 3);  -- role_id 1 refers to 'Software Engineer', tool_id 2 (Excel) 3 times
-
-
---To get the number of appearances of each language for a specific job role:
-
---SELECT r.name as role_name, l.name as language_name, rl.count
---FROM role_languages rl
---JOIN roles r ON rl.role_id = r.id
---JOIN languages l ON rl.language_id = l.id
---WHERE r.id = 1;  -- Assuming you want data for role_id 1
-
-
---Retrieve Role Languages
-
---SELECT r.name AS role_name, l.name AS language_name, rl.count
---FROM role_languages rl
---JOIN roles r ON rl.role_id = r.id
---JOIN languages l ON rl.language_id = l.id;
