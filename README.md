@@ -45,7 +45,7 @@ A fully scalable REST API using FastAPI (Python) to handle requests for in-deman
 
 ![](https://imgur.com/FTeTxAs.png)
 
-**A peak of code from a GET request**
+**A piece of code from a GET request**
 
 ![](https://imgur.com/i1Kin0U.png)
 
