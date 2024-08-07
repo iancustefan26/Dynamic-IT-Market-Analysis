@@ -2,8 +2,8 @@ from fastapi import FastAPI, HTTPException
 from uuid import UUID, uuid4
 from typing import List, Dict, Optional
 from models import Job
-from usable import roles, skills
 from statistics_calculator import calculate_statistics
+from usable import roles, skills
 
 app = FastAPI()
 
