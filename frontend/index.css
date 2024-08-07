@@ -7,7 +7,7 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  color: white; /* Make all text white by default */
+  color: white;
 }
 
 #root {
@@ -22,7 +22,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7); /* Darker overlay */
+  background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(5px);
   z-index: -1;
 }
@@ -31,7 +31,7 @@ body {
   position: relative;
   z-index: 1;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.05); /* Semi-transparent background */
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 5%;
   max-width: 1000px;
   margin: auto;
@@ -78,8 +78,8 @@ button.selected {
 .stat-bar-label {
   flex: 1;
   text-align: right;
-  font-size: 20px; /* Larger font size for skills */
-  color: white; /* Make the text white */
+  font-size: 20px; 
+  color: white; 
 }
 
 .stat-bar-value {
@@ -92,10 +92,10 @@ button.selected {
 .animated-bar {
   height: 30px;
   border-radius: 5px;
-  transform-origin: left; /* Animate from left to right */
+  transform-origin: left; 
   transition: width 1s;
 }
 
 .stat-bar-value span {
-  color: white; /* Ensure percentage text is white */
+  color: white; 
 }

@@ -395,10 +395,8 @@ const data = {
 };
 
 const getColor = (value) => {
-  // Ensure the value is within the defined range
   value = Math.max(0, Math.min(70, value));
 
-  // Helper function to interpolate between two colors
   function interpolateColor(color1, color2, factor) {
     const r = Math.round(color1[0] + factor * (color2[0] - color1[0]));
     const g = Math.round(color1[1] + factor * (color2[1] - color1[1]));
@@ -406,14 +404,13 @@ const getColor = (value) => {
     return `rgb(${r},${g},${b})`;
   }
 
-  // Define color stops
   const colorStops = [
-    { value: 0, color: [255, 0, 0] },    // Red
-    { value: 30, color: [255, 255, 0] }, // Yellow
-    { value: 70, color: [0, 255, 0] }    // Green
+    { value: 0, color: [255, 0, 0] },   
+    { value: 30, color: [255, 255, 0] },
+    { value: 70, color: [0, 255, 0] }  
   ];
 
-  // Determine the appropriate color based on the value
+
   if (value <= colorStops[0].value) {
     return `rgb(${colorStops[0].color.join(',')})`;
   } else if (value >= colorStops[colorStops.length - 1].value) {
