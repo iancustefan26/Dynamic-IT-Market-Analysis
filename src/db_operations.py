@@ -58,8 +58,6 @@ def clear_database():
 
         for (table_name,) in tables:
             cursor.execute(f"TRUNCATE TABLE {table_name}")
-            #print(f"Table {table_name} truncated.")
-
         connection.commit()
 
     except Exception as e:

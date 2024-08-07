@@ -23,10 +23,6 @@ def calculate_statistics(role = "ALL", skill = "languages"):
                     percentages[row] = 0.00
     else:
         data = extract_count_for_role(roles_id[role], skill)
-        print(data)
-        # with open('db_data.txt', 'a') as f:
-        #     f.write(str(data))
-        #     f.write("\n\n")
         for row in data:
             total_count += row[2]
             if counts.get(row[1], "") != "":
@@ -39,7 +35,3 @@ def calculate_statistics(role = "ALL", skill = "languages"):
             else:
                 percentages[row] = 0.00
     return percentages
-
-for role in roles:
-    for skill in skills:
-        x = calculate_statistics(role, skill)

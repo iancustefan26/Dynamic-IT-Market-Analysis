@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: white; /* Make all text white by default */
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay */
+  backdrop-filter: blur(5px);
+  z-index: -1;
+}
+
+.app-container {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05); /* Semi-transparent background */
+  border-radius: 5%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+button {
+  outline: none;
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button.selected {
+  background-color: #0056b3;
+}
+
+.skill-selector, .job-selector {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.stat-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 5px;
+}
+
+.stat-bar-label {
+  flex: 1;
+  text-align: right;
+  font-size: 20px; /* Larger font size for skills */
+  color: white; /* Make the text white */
+}
+
+.stat-bar-value {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.animated-bar {
+  height: 30px;
+  border-radius: 5px;
+  transform-origin: left; /* Animate from left to right */
+  transition: width 1s;
+}
+
+.stat-bar-value span {
+  color: white; /* Ensure percentage text is white */
+}

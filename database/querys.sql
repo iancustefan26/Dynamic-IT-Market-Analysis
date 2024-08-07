@@ -190,6 +190,3 @@ CREATE TABLE role_databases (
     FOREIGN KEY (database_id) REFERENCES dbases(id)
 );
 
-use jobs;
-drop database jobs;
-
