@@ -1,3 +1,4 @@
+
 # **Dynamic IT Market Analysis Platform**
    ![](https://i.imgur.com/uLikSKp.png)
 
@@ -15,6 +16,16 @@ A fully scalable REST API using FastAPI (Python) to handle requests for in-deman
 - **Automation**: Reduce the manual effort required to gather and analyze job market data by automating the data extraction and update processes.
 - **Personal Growth**: Enhance my skills in backend development, database management, and data extraction, while contributing to a meaningful project that addresses real-world needs.
 
+# Technologies Used
+
+ - Python
+ - FastAPI
+ - MySQL
+ - Web Scraping
+ - SerpAPI
+ - Networking
+ - React
+
 ## Final Product
 
  - **Cloud Engineer - Cloud Services**![enter link description here](https://imgur.com/zGhoovo.png)
@@ -30,16 +41,13 @@ A fully scalable REST API using FastAPI (Python) to handle requests for in-deman
 
 ![](https://imgur.com/A0sV6m9.png)
 
+**Example of request response**
+
+![](https://imgur.com/FTeTxAs.png)
+
 **A peak of code from a GET request**
 
 ![](https://imgur.com/VpdzU3v.png)
-# Technologies Used
-
- - Python
- - FastAPI
- - MySQL
- - Networking
- - React
 
 
 
