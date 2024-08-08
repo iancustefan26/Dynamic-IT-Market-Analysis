@@ -56,7 +56,6 @@ async def get_job(job_name : str) -> Job:
                 "Internal error" : "No content, database empty"
             }
         )
-
     return Job(
         title = job_name,
         statistics=temp

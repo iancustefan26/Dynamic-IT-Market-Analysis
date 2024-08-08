@@ -41,6 +41,10 @@ A fully scalable REST API using FastAPI (Python) to handle requests for in-deman
 
 ![](https://imgur.com/A0sV6m9.png)
 
+**Example of job post web scraping**
+
+![](https://imgur.com/jyEnn06.png)
+
 **Example of request response**
 
 ![](https://imgur.com/FTeTxAs.png)
